@@ -8,6 +8,9 @@ af.fast_track_multiplier=1
 ### DALVIK
 dalvik.vm.lockprof.threshold=500
 
+### FASTBOOTD
+ro.fastbootd.available=true
+
 ### GRAPHICS
 # gralloc/exynosdisplay
 ro.vendor.ddk.set.afbc=1
