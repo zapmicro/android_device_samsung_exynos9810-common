@@ -116,6 +116,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 ### BLUETOOTH
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/hardware/bluetooth
 BOARD_CUSTOM_BT_CONFIG := $(PLATFORM_PATH)/hardware/bluetooth/libbt_vndcfg.txt
+BOARD_HAVE_BLUETOOTH_BCM := true
 
 ### GRAPHICS
 # hardware/interfaces/configstore/1.1/default/surfaceflinger.mk

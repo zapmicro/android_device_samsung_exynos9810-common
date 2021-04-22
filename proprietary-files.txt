@@ -82,7 +82,6 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
 ### BLUETOOTH
-vendor/lib64/libbt-vendor.so
 # Bluetooth (AptX) - from crosshatch - RQ1A.201205.003
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
