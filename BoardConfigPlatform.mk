@@ -157,6 +157,7 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 BOARD_HOSTAPD_DRIVER             := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 
+WIFI_RESET_IFACE_AFTER_MAC_CHANGE := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # hardware/broadcom/wlan/bcmdhd/config/Android.mk
