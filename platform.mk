@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+### PROPRIETARY VENDOR FILES
+$(call inherit-product, vendor/samsung/exynos9810-common/exynos9810-common-vendor.mk)
+
 PLATFORM_PATH := device/samsung/exynos9810-common
 
 # Soong namespaces

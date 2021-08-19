@@ -13,6 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
+
 BUILD_TOP := $(shell pwd)
 
 PLATFORM_PATH := device/samsung/exynos9810-common
@@ -175,3 +177,6 @@ BUILD_BROKEN_DUP_RULES := true
 BOARD_HAS_DOWNLOAD_MODE := true
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/config/init/fstab.samsungexynos9810
+
+### VENDOR SECURITY PATCH DATE
+VENDOR_SECURITY_PATCH := 2021-08-01 
