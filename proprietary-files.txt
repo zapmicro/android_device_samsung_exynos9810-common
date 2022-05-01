@@ -119,9 +119,9 @@ vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_profiles_V1_0.xml
 
-# Gatekeeper
--vendor/lib/hw/gatekeeper.exynos9810.so
--vendor/lib64/hw/gatekeeper.exynos9810.so
+# Gatekeeper - N770FXXU8FVB4
+-vendor/lib/hw/gatekeeper.exynos9810.so|b96272f30ad1892f2ae9366574f4058a7ca59c00
+-vendor/lib64/hw/gatekeeper.exynos9810.so|16ebf6180bfd35aa8c3ef31e2349f4a85f95a21b
 
 # Gralloc - N770FXXS7DUB1
 -vendor/lib/hw/gralloc.exynos9810.so|652a81c3d1adaebb931f0880887d4602906f138a
