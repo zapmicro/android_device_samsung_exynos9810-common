@@ -290,9 +290,9 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 -vendor/lib64/libexynosv4l2.so|5f4f040e5ebd8a28914f55e70484657fcab89e2f
 -vendor/lib64/libmpp.so
 
-# Samsung SLSI Memtrack
--vendor/lib64/hw/memtrack.exynos9810.so
--vendor/lib/hw/memtrack.exynos9810.so
+# Samsung SLSI Memtrack - N770FXXU8FVB4
+-vendor/lib64/hw/memtrack.exynos9810.so|6046b4d605f4217ad8aff2a5e59bb59ed0ffb74a
+-vendor/lib/hw/memtrack.exynos9810.so|4bbcaa09687a5168d06c0b10ce12aae6bf291052
 
 # Secnative
 -vendor/lib/libsecnativefeature.so
