@@ -1,5 +1,8 @@
 # Proprietary files - from Samsung package version referenced in device specific repos, unless pinned
 
+# APN
+product/etc/apns-conf.xml
+
 # Audio
 vendor/etc/audio_board_info.xml
 vendor/etc/default_volume_tables.xml
